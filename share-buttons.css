@@ -1,0 +1,162 @@
+.sb-container {
+    display:inline-block;
+    overflow:hidden;
+/*    border:dashed lightgrey 1px;*/
+    padding:0px;
+    margin:0px;
+    vertical-align:bottom;
+}
+
+.sb-table .sb-container {
+    border:dashed lightgrey 1px;
+    padding:0px;
+}
+
+.sb-container ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    border:none;
+}
+
+.sb-container li {
+    margin:6px;
+}
+
+.sb-head.sb-container li {
+    margin:14px;
+}
+
+.sb-container.sb-h {
+    padding:3px;
+}
+
+.sb-container.sb-h li {
+    margin:3px;
+}
+
+.sb-belowpost.sb-container {
+    float:right;
+    padding:0px;
+}
+
+.sb-belowpost.sb-container.sb-h li {
+    margin:0px;
+    margin-left:6px;
+}
+
+.sb-belowpost.sb-container.sb-h li.sb-first {
+    margin:0px;
+    margin-left:0px;
+}
+
+
+
+
+.sb-title.sb-container {
+    float:right;
+    padding:0px;
+    position:relative;
+    top:-7px;
+}
+
+.sb-title.sb-container.sb-h li {
+    margin:0px;
+    margin-left:6px;
+}
+
+.sb-title.sb-container.sb-h li.sb-first {
+    margin:0px;
+    margin-left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sb-h li {
+    float:left;
+    display:inline-block;
+}
+
+.sb-main a {
+    text-decoration:none;
+}
+
+.sb-main {
+    width:32px;
+    height:32px;
+    display:block;
+    padding:0px;
+    margin:0px;
+}
+
+
+.sb-r .sb-main {
+    width:68px;
+}
+
+.sb-b .sb-main {
+    height:45px;
+}
+
+.sb-r div.sb-count, .sb-r .sb-logo {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+.sb-r div.sb-count {
+    width:35px;
+    height:30px;
+    border:solid lightgrey 1px;
+    border-left:none;
+}
+
+.sb-r span.sb-count {
+    display:block;
+    line-height:15px;
+    padding-top:8px;
+}
+
+
+.sb-n .sb-count {
+    display:none;
+    visibility:hidden;
+}
+
+
+
+div.sb-count {
+    width:30px;
+    height:12px;
+    border:solid lightgrey 1px;
+    border-top:none;
+    overflow:hidden;
+    text-align:center;
+    background:white;
+}
+
+.sb-logo {
+    width:32px;
+    height:32px;
+}
+
+img.sb-logo {
+    display:block;
+}
+
+span.sb-count {
+    font-family: arial, sans serif;
+    font-size:11px;
+    color: rgb(102, 102, 102);
+    display:block;
+    line-height:13px;
+    font-weight:normal;
+}
