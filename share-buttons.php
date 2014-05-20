@@ -112,4 +112,17 @@ function sharing_func( $atts ) {
 }
 add_shortcode( 'share-buttons', 'sharing_func' );
 
+
+// Prevent name conflict in Wordpress updates.
+
+add_action( 'plugins_loaded', function(){
+    add_filter( 'site_transient_update_plugins', function ( $value ) 
+    {
+        if( isset( $value->response['share-buttons/share-buttons.php'] ) )
+            unset( $value->response['share-buttons/share-buttons.php'] );
+        return $value;
+    });
+});
+
+
 ?>
